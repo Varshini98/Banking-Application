@@ -1,1 +1,21 @@
 
+Bank Application System Modules
+The application is basically divided into 3 sections:
+1. New customer: 
+This lets users add a new profile in the bank by providing their name, dob, employment status, address (home & work address(if an employee)), email, and phone no. And a unique id-Customer ID.
+2. Existing customers (Once they have created a profile, they may access the next operation.)
+     a. View Customer Details (get personal detail)
+     b. Add New Account (create multiple savings/current or FD with unique Account Number)
+     c. View Account Details (This displays the information of all accounts whose id has been entered)
+     d. New Loan (Home/ Vechile Loan)
+     e. View Loan Details
+     f. Deposit  (assists in depositing money. It takes as input the account number, date, and amount)
+     g. Withdraw  (assist in withdrawing money. It takes as input account number,  date, and amount)
+     h. Transfer Money (customer can transfer to another account by inputting the receiver’s account number)
+     i. Check Balance (This displays the current balance in the queried account)
+     j. Transaction history (in the order of most recent transaction on top, it displays logs of the deposits/withdrawals/transfers made from the account)
+     k. Loan Payment
+     l. Edit Profile
+     m. Close Account (This lets the user delete an existing account.)
+3. Bank Log (this section is exclusive for bank reference)
+This has a detailed list of Active/Inactive Customers, Active Accounts/Loans etc.
